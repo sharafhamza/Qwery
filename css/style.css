@@ -1,0 +1,380 @@
+/* ============================
+    common css start 
+    ===========================*/
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.open{
+    font-family: 'Open Sans', sans-serif;
+}
+.font-reguler{
+    font-weight: 400;
+}
+.font-medium{
+    font-weight: 500;
+}
+.font-semibold{
+    font-weight: 600;
+}
+.font-bold{
+    font-weight: 700;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    color: #FBD784;
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-96{
+    font-size: 96px;
+}
+.font-88{
+    font-size: 88px;
+}
+.font-88{
+    font-size: 88px;
+}
+.font-64{
+    font-size: 64px;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-36{
+    font-size: 36px;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
+/* ============================
+    common css end
+    ===========================*/
+
+    
+/* ============================
+    navber css start 
+    ===========================*/
+nav {
+    background-color: transparent;
+    padding-top: 33px;
+    position: absolute;
+    width: 100%;
+
+}
+nav .logo{
+    width: 40%;
+}    
+nav .navitem{
+    width: 60%;
+    
+}    
+nav .navitem ul{
+    column-gap: 31px;
+    justify-content: flex-end;
+    
+    
+}    
+nav .navitem ul li{
+    color: #fff;
+
+    
+}    
+nav label {
+    color: white;
+    position: absolute;
+    top: 24px;
+    right: 45px;
+    font-size: 24px;
+    display: none
+    ;
+}
+nav input{
+    display: none
+    ;
+}
+
+/* ============================
+    navber css end 
+    ===========================*/
+/* ============================
+    banner css start 
+    ===========================*/
+#banner {
+    background: url('../img/banner.png') no-repeat;
+    padding-top: 464px ;
+    padding-bottom: 458px;
+    background-size: cover;
+    background-color: black;
+}
+#banner p{
+    color: #FFC178;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+}
+#banner h1 {
+    margin-top: 38px;
+}
+#banner h1 span{
+    display: block;
+    font-size: 88px;
+    font-weight: 400;
+   
+}
+
+
+/* ============================
+    banner css end 
+    ===========================*/
+
+
+
+/* ============================
+    holi css start 
+    ===========================*/
+#holi{
+    background-color: black;
+    padding-top: 318px;
+    padding-bottom: 358px;
+}    
+
+#holi .left{
+    width: 40%;
+}
+#holi .left img{
+    width: 100%;
+}
+
+#holi .right{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#holi .right .first{
+   text-transform: uppercase;
+   color: #FBD784;
+   letter-spacing: 6px;
+   font-weight: 700;
+   width: 522px;
+}
+#holi .right h2{
+    width: 538px;
+   
+}
+#holi .right .second {
+    color: white;
+    letter-spacing: 0;
+    line-height: 32px;
+    width: 536px;
+    margin-top: 13px;
+    text-transform: uppercase;
+}
+#holi .right a {
+    text-transform: uppercase;
+    margin-top: 66px;
+    justify-content: flex-start;
+    width: 536px;
+}
+
+/* ============================
+    holi css end 
+    ===========================*/
+/* ============================
+    climb css start 
+    ===========================*/
+#climb{
+    padding-bottom: 295px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #000;
+   
+}
+#climb p {
+    font-size: 15px;
+    line-height: 32px;
+    width: 905px;
+    margin: auto;
+    color: white;
+}
+#climb h2 {
+    width: 888px;
+    margin: auto;
+    margin-top: 14px;
+    margin-bottom: 15px;
+}
+#climb h4 {
+    color: #FBD784;
+    letter-spacing: 6px;
+}
+#climb a {
+    padding-bottom: 32px;
+    padding-top: 26px;
+}
+#climb .container{
+    background: url('../img/climb.webp');
+    padding-top: 558px;
+}
+
+/* ============================
+    climb css end 
+    ===========================*/
+
+/* ============================
+    our css start 
+    ===========================*/
+
+#our{
+    background-color: #000;
+   
+}    
+#our .left{
+    text-transform: uppercase;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}    
+#our .right{
+    width: 40%;
+}    
+#our .right img{
+   width: 100%;
+}
+#our h4 {
+    color: #FBD784;
+    letter-spacing: 6px;
+}    
+#our  p {
+    font-size: 15px;
+    line-height: 32px;
+    width: 548px;
+    color: white;
+    margin-bottom: 47px;
+} 
+#our  h2 {
+    width: 650px;
+    margin: 20px 0;
+}
+
+/* ============================
+    our css end 
+    ===========================*/
+/* ============================
+    footer css start 
+    ===========================*/
+footer{
+    background-color: #000;
+    padding-top: 200px;
+}
+
+footer .foooter-top .left{
+    width: 50%;
+}
+footer .foooter-top .left{
+    width: 50%;
+}
+footer .foooter-top .left img{
+    width: 22%;
+}
+footer .foooter-top .right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+footer .foooter-top .right .first{
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+footer .foooter-top .right .second{
+    background-color: #FFA343;
+    padding: 18px 67px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.footer-bottom{
+    padding-top: 82px;
+}
+.footer-bottom span{
+    color: white;
+    display: inline-block;
+}
+.footer-bottom .item-1 span{
+    margin-right: 78px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.footer-bottom .item-1{
+    width: 30%;
+    display: block !important;
+}
+.footer-bottom .item-2{
+    width: 23%;
+}
+.footer-bottom .item-3{
+    width: 23%;
+}
+.footer-bottom .item-4{
+    width: 23%;
+}
+.footer-bottom .item {
+    display: flex;
+    justify-content: center;
+}
+.footer-bottom .item ul li:first-child{
+    color: #FFD1A0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-bottom .item ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.footer-bottom .item ul li{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+}
+.copy span{
+    opacity: 0.5;
+    color: white;
+}
+.copy{
+    text-align: center;
+    margin-top: 274px;
+    padding-bottom: 55px;
+}
+
+/* ============================
+    footer css end 
+    ===========================*/
